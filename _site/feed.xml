@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-03-16T15:34:34+05:30</updated><id>/feed.xml</id><title type="html">Form</title><subtitle>This is a jekyll form based project for Company360.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="/jekyll/update/2021/03/15/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2021-03-15T15:22:22+05:30</published><updated>2021-03-15T15:22:22+05:30</updated><id>/jekyll/update/2021/03/15/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2021/03/15/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Form</title><link href="/jekyll/update/2021/03/15/Form.html" rel="alternate" type="text/html" title="Form" /><published>2021-03-15T15:22:22+05:30</published><updated>2021-03-15T15:22:22+05:30</updated><id>/jekyll/update/2021/03/15/Form</id><content type="html" xml:base="/jekyll/update/2021/03/15/Form.html">&lt;html&gt;
+	&lt;head&gt;
+		&lt;style&gt;
+			select {
+            width: 100%;
+            height: 22px;
+            padding: 1px 2px;
+            border: none;
+            font-size: 16px;
+            color: grey;
+        }
+
+        input {
+            background-color: transparent;
+    		width: 100%;
+            
+            padding: 1px 2px;
+            border: none;
+            font-size: 16px;
+            color: grey;
+        }
+
+        .button {
+        	width:100%;
+            padding: 10px 30px;
+            font-size: 16px;
+            background-color: yellow;
+            color: black;
+            border: none;
+        }
+        .del{
+        	color:red;
+        }
+		&lt;/style&gt;
+		&lt;script type=&quot;text/javascript&quot;&gt;
+	        function myfunction() {
+	            var email = document.getElementById(&quot;1&quot;).value;
+	            var phone = document.getElementById(&quot;2&quot;).value;
+	            var citi = document.getElementById(&quot;3&quot;).value;
+	            var languages = document.getElementById(&quot;4&quot;).value;
+	            alert(&quot;Email Adress : &quot; + email + &quot;\n&quot; + &quot;Mobile Number : &quot; + phone + &quot;\n&quot; + &quot;City : &quot; + citi + &quot;\n&quot; + &quot;Language : &quot; + languages);
+	        }
+    	&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;center&gt;
+		&lt;table&gt;
+			&lt;tr&gt;
+				&lt;td&gt;
+					&lt;center&gt;
+					&lt;h3&gt;&lt;b&gt;Get me more details&lt;/b&gt;&lt;/h3&gt;
+					&lt;/center&gt;
+					&lt;input type=&quot;text&quot; id=&quot;1&quot; name=&quot;email&quot; placeholder=&quot;Email*&quot; required=&quot;&quot; /&gt;&lt;br /&gt;
+					&lt;hr /&gt;&lt;br /&gt;
+					&lt;input type=&quot;number&quot; id=&quot;2&quot; name=&quot;mobilenumber&quot; placeholder=&quot;Mobile Number*&quot; required=&quot;&quot; /&gt;&lt;br /&gt;
+					&lt;hr /&gt;&lt;br /&gt;
+					&lt;select name=&quot;city&quot; id=&quot;3&quot; required=&quot;&quot;&gt;
+                        &lt;option value=&quot;&quot; selected=&quot;&quot;&gt;Select City*&lt;/option&gt;
+                        &lt;option value=&quot;Kolkata&quot;&gt;Kolkata &lt;/option&gt;
+                        &lt;option value=&quot;Pune&quot;&gt;Pune &lt;/option&gt;
+                        &lt;option value=&quot;Bangalore&quot;&gt;Bangalore &lt;/option&gt;
+                        &lt;option value=&quot;Chennai&quot;&gt;Chennai &lt;/option&gt;
+                        &lt;option value=&quot;Hyderabad&quot;&gt;Hyderabad &lt;/option&gt;
+                        &lt;option value=&quot;Mumbai&quot;&gt;Mumbai &lt;/option&gt;
+                        &lt;option value=&quot;Delhi&quot;&gt;Delhi &lt;/option&gt;
+                    &lt;/select&gt;&lt;br /&gt;
+                    &lt;hr /&gt;&lt;br /&gt;
+                    &lt;select name=&quot;language&quot; id=&quot;4&quot; required=&quot;&quot;&gt;
+                        &lt;option value=&quot;&quot; selected=&quot;&quot;&gt; Select Language* &lt;/option&gt;
+                        &lt;option value=&quot;English&quot;&gt;English &lt;/option&gt;
+                        &lt;option value=&quot;Hindi&quot;&gt;Hindi &lt;/option&gt;
+                        &lt;option value=&quot;Bengali&quot;&gt;Bengali&lt;/option&gt;
+                    &lt;/select&gt;&lt;br /&gt;
+                    &lt;hr /&gt;&lt;br /&gt;
+                    &lt;center&gt;&lt;div style=&quot;display: inline-block;&quot;&gt;&lt;span style=&quot;color:red;text-decoration:line-through;&quot;&gt;
+  &lt;span style=&quot;color:black;&quot;&gt;&lt;b&gt;&amp;#8377;2999&lt;/b&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;b&gt;&lt;span style=&quot;font-size:30px&quot;&gt;&amp;#8377;999&lt;/span&gt; + &lt;/b&gt;&lt;a href=&quot;www.&quot;&gt;Govt Fees&lt;/a&gt;&lt;/div&gt;&lt;/center&gt;
+                    &lt;center&gt;&lt;span style=&quot;color:grey&quot;&gt;Limited Period Offer&lt;/span&gt;&lt;/center&gt;&lt;br /&gt;&lt;br /&gt;
+        &lt;input type=&quot;submit&quot; value=&quot;Register my Company &quot; id=&quot;5&quot; class=&quot;button&quot; onclick=&quot;myfunction()&quot; /&gt;
+				&lt;/td&gt;
+			&lt;/tr&gt;
+		&lt;/table&gt;&lt;/center&gt;
+	&lt;/body&gt;
+                    
+&lt;/html&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"></summary></entry></feed>
